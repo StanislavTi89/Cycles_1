@@ -52,7 +52,7 @@ public class Main {
         int month = 0;
         for (int i = 1; i <= 12; i++){
             month = month + accumulation;
-            System.out.println("Месяц " + i + " , сумма накоплений равна " + month + " рублей");
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + month + " рублей");
         }
 
         //Задание 9
