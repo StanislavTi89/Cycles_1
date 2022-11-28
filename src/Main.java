@@ -60,7 +60,7 @@ public class Main {
         double sumPercent = 0;
         double percent = 0.01;
         for (int i = 1; i <= 12; i++){
-            sumPercent = (sumPercent +accumulation) * (1 + percent);
+            sumPercent = (sumPercent + accumulation) * (1 + percent);
             System.out.println("Месяц " + i + ", сумма накоплений равна " + sumPercent + " рублей");
         }
 
